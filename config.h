@@ -1,6 +1,6 @@
 
-static const char font[] =  "-misc-fixed-medium-r-normal--13-120-75-75-c-70-*-*";
-static const char *tag_name[] = {"one", "two", "three", "four", "five", NULL};
+static const char font[] =  "*";
+static const char *tag_name[] = {"1", "2", "3", "4", "5", NULL};
 static const char *tile_modes[] = {"ttwm", "rstack", "bstack", NULL};
 
 /* comment to disable status icons */
@@ -38,8 +38,8 @@ static const int	borderwidth			= 1;
 static const int	tilegap				= 4;
 static int			tilebias			= 0;
 
-#define DMENU		"dmenu_run -fn \"-misc-fixed-medium-r-normal--13-120-75-75-c-70-*-*\" -nb \"#101010\" -nf \"#484862\" -sb \"#080808\" -sf \"#FFDD0E\""
-#define TERM		"urxvt" 		/* or "urxvtc","xterm","terminator",etc */
+#define DMENU		"rofi -show drun"
+#define TERM		"st" 		/* or "urxvtc","xterm","terminator",etc */
 #define CMD(app)	app "&"
 
 /* key definitions */
